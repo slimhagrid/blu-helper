@@ -114,6 +114,10 @@ const COMPANIES = [
    description: "Italian boutique film label and distributor specializing in the restoration and release of classic Asian and international cinema." },
   { name: "Fondazione Home Movies", url: "https://www.homemovies.it/", type: "label", region: "IT",
    description: "First archive in Italy entirely dedicated to the preservation, restoration, and promotion of private film and audiovisual heritage and amateur cinema." },
+  { name: "All the Anime", url: "https://www.alltheanime.com/", type: "label", region: "UK",
+   description: "Europe's leading boutique animation distributor. Bringing your favourite anime to cinema, vinyl, and home video." },
+  { name: "BFI", url: "https://shop.bfi.org.uk/", type: "label", region: "UK",
+   description: "United Kingdom's lead public organization for film and the moving image" },
 
 
 
