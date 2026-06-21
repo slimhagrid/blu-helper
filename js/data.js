@@ -30,6 +30,14 @@ const COMPANIES = [
     description: "Import and vendor specialist for blu-rays in the UK market." },
   { name: "The Movie Room", url: "https://www.themovieroom.com/", type: "vendor", region: "US",
     description: "Specialty storefront stocking import and boutique blu-rays from labels across the blu-ray space." },
+  { name: "Physical Media Vault", url: "https://www.physicalmediavault.com/", type: "vendor", region: "US",
+    description: "Specialty storefront stocking import and boutique blu-rays from labels across the blu-ray space." },
+  { name: "Blurays For Everyone", url: "https://bluraysforeveryone.com/", type: "vendor", region: "US",
+    description: "Specialty storefront stocking import and boutique blu-rays from labels across the blu-ray space." },
+ { name: "Terracotta Distro", url: "https://shop.terracottadistribution.com/", type: "vendor", region: "UK",
+    description: "UK distributor and label specializing in Asian cinema." },
+  { name: "Home Movies Store", url: "https://www.homemovies-store.com/it/", type: "vendor", region: "IT",
+    description: "Italian distributor specializing in all things physical media." },
 
   // ---------------- FILM LABELS ----------------
   { name: "A24", url: "https://shop.a24films.com/collections/blu-rays", type: "label", region: "US",
@@ -38,7 +46,7 @@ const COMPANIES = [
     description: "Boutique label focused on rediscovered and restored arthouse and genre cinema." },
   { name: "Arrow Video", url: "https://www.arrowvideo.com/c/shop/", type: "label", region: "US/CA/UK",
     description: "Genre and cult label known for extensive special editions and restorations." },
-  { name: "Toy Robot Video", url: "", type: "label", region: "", parent: "Arrow Video", needsReview: true,
+  { name: "Toy Robot Video", url: "", type: "label", region: "US", parent: "Arrow Video", needsReview: true,
     description: "Sub-label of Arrow Video." },
   { name: "Cauldron Films", url: "https://www.cauldron-films.com/", type: "label", region: "US",
     description: "Boutique label specializing in obscure horror and exploitation restorations." },
@@ -94,14 +102,20 @@ const COMPANIES = [
     description: "UK label releasing horror, cult, and genre special editions." },
   { name: "Strange Vice Films", url: "https://www.strangevice.co.uk/films", type: "label", region: "UK",
     description: "Boutique label focused on rare and underground genre titles." },
-  { name: "Terracotta Distro", url: "https://shop.terracottadistribution.com/", type: "label", region: "UK",
-    description: "UK distributor and label specializing in Asian cinema." },
   { name: "Umbrella Entertainment", url: "https://shop.umbrellaent.com.au/", type: "label", region: "AUS",
     description: "Australian label covering genre, cult, and catalog restorations." },
   { name: "ViaVision - Imprint", url: "https://viavision.com.au/", type: "label", region: "AUS",
     description: "Australian label whose Imprint line releases collector special editions of classic and genre cinema." },
   { name: "Fun City Editions", url: "https://www.funcityeditions.com/shop", type: "label", region: "US",
    description: "Fun City Editions is a boutique label focused on reissues of maverick repertory cinema and music." },
+  { name: "Neon Rated", url: "https://www.neonrated.com/shop/blu-ray", type: "label", region: "US",
+   description: "American independent film production and distribution company." },
+  { name: "Legends Collection Pictures", url: "https://www.legendscollection.it/", type: "label", region: "IT",
+   description: "Italian boutique film label and distributor specializing in the restoration and release of classic Asian and international cinema." },
+  { name: "Fondazione Home Movies", url: "https://www.homemovies.it/", type: "label", region: "IT",
+   description: "First archive in Italy entirely dedicated to the preservation, restoration, and promotion of private film and audiovisual heritage and amateur cinema." },
+
+
 
   // ---------------- VINEGAR SYNDROME PARTNER LABELS ----------------
   // Sell their catalog through vinegarsyndrome.com rather than running a separate storefront.
@@ -153,7 +167,7 @@ const COMPANIES = [
   { name: "XYZ Films", url: "https://vinegarsyndrome.com/collections/xyz-films", type: "label", region: "", parent: "Vinegar Syndrome", needsReview: true, description: "Partner label releasing through Vinegar Syndrome." },
   { name: "Yellow Veil", url: "https://vinegarsyndrome.com/collections/yellow-veil", type: "label", region: "", parent: "Vinegar Syndrome", needsReview: true, description: "Partner label releasing through Vinegar Syndrome." },
 
-  // ---------------- SHELF STARTERS ----------------
+  // ---------------- SHELF STAPLES ----------------
   { name: "Alibris", url: "https://www.alibris.com/movies", type: "shelf", region: "US",
     description: "Marketplace for new and used books and movies, useful for hunting out-of-print blu-rays." },
   { name: "DeepDiscount", url: "https://www.deepdiscount.com/movies", type: "shelf", region: "US",
@@ -168,6 +182,8 @@ const COMPANIES = [
     description: "Long-running general movie retailer carrying a wide studio catalog selection." },
   { name: "RareWaves", url: "https://www.rarewaves.com/", type: "shelf", region: "UK",
     description: "Long-running general movie retailer carrying a wide studio catalog selection." },
+  { name: "MovieZyng", url: "https://moviezyng.com/", type: "shelf", region: "US",
+    description: "Dedicated e-commerce destination and distributor for physical media." },
 
   // ---------------- PREMIUMS ----------------
   { name: "BluFans", url: "https://bluraysforeveryone.com/collections/steelbooks-metal-blufans", type: "premium", region: "CN",
