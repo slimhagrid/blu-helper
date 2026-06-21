@@ -184,6 +184,12 @@ a {
   margin-top: var(--space-xl);
 }
 
+.video-title {
+  font-size:  xx-small;
+  margin-bottom: 0px !important;
+  text-decoration: none;
+}
+
 /* Search */
 .search-row {
   padding: var(--space-lg) 0;
