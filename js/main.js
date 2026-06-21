@@ -111,4 +111,21 @@ document.addEventListener("DOMContentLoaded", () => {
     else collapsedParents.add(name);
     render(lastFilter);
   });
+
+  const navToggle = document.getElementById("nav-toggle");
+  const navLinks = document.getElementById("nav-links");
+
+  function closeNav() {
+    navLinks.classList.remove("open");
+    navToggle.setAttribute("aria-expanded", "false");
+  }
+
+  navToggle.addEventListener("click", () => {
+    const isOpen = navLinks.classList.toggle("open");
+    navToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  navLinks.addEventListener("click", (e) => {
+    if (e.target.closest("a")) closeNav();
+  });
 });
