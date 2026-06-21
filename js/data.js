@@ -100,8 +100,6 @@ const COMPANIES = [
     description: "Australian label covering genre, cult, and catalog restorations." },
   { name: "ViaVision - Imprint", url: "https://viavision.com.au/", type: "label", region: "AUS",
     description: "Australian label whose Imprint line releases collector special editions of classic and genre cinema." },
-  { name: "Nova Media", url: "https://novamnm.com/category/4k-uhd/143/", type: "label", region: "SK",
-   description: "South Korean online retailer and boutique home video label." },
   { name: "Fun City Editions", url: "https://www.funcityeditions.com/shop", type: "label", region: "US",
    description: "Fun City Editions is a boutique label focused on reissues of maverick repertory cinema and music." },
 
@@ -171,9 +169,21 @@ const COMPANIES = [
   { name: "RareWaves", url: "https://www.rarewaves.com/", type: "shelf", region: "UK",
     description: "Long-running general movie retailer carrying a wide studio catalog selection." },
 
-  // ---------------- PACKAGING-ONLY ----------------
-  { name: "Blufans", url: "", type: "packaging", region: "",
-    description: "Produces premium steelbook and collector packaging." },
-  { name: "MantaLab", url: "", type: "packaging", region: "",
-    description: "Produces premium steelbook and collector packaging." },
+  // ---------------- PREMIUMS ----------------
+  { name: "BluFans", url: "https://bluraysforeveryone.com/collections/steelbooks-metal-blufans", type: "premium", region: "CN",
+    description: "Premium limited edition movie releases." },
+  { name: "MantaLab", url: "https://www.mantalab.com/collections/all", type: "premium", region: "HK",
+    description: "Creates premium SteelBooks and collector editions." },
+  { name: "Cinemuseum", url: "https://cinemuseum.myshopify.com/", type: "premium", region: "IT",
+    description: "Produces boutique movie collector editions." },
+  { name: "Filmarena", url: "https://bluraysforeveryone.com/collections/steelbooks-metal-film-arena", type: "premium", region: "CZ",
+    description: "Makes premium SteelBooks and film editions." },
+  { name: "HDZeta", url: "https://bluraysforeveryone.com/collections/steelbooks-metal-hdzeta", type: "premium", region: "CN",
+    description: "Creates high-end numbered movie releases." },
+  { name: "KimchiDVD", url: "https://www.kimchidvd.com/", type: "premium", region: "SK",
+    description: "Korean retailer specializing in exclusives." },
+  { name: "NovaMedia", url: "https://novamnm.com/category/4k-uhd/143/", type: "premium", region: "SK",
+    description: "Releases limited premium movie editions." },
+  { name: "Plain Archive", url: "https://www.plainarchive.com/", type: "premium", region: "SK",
+    description: "Curates artistic collector film releases." },
 ];

@@ -3,10 +3,10 @@ const SECTIONS = [
     blurb: "Storefronts that order titles from labels and distributors so you can preorder and buy domestic, import and out-of-print releases in one place." },
   { id: "labels", type: "label", title: "Boutique Film Labels",
     blurb: "Companies that license and produce their own physical releases, sold on their own site and/or through partner vendors." },
-  { id: "shelf", type: "shelf", title: "Shelf Starters",
-    blurb: "General retailers selling mainstream studio catalog at a discount — good for filling gaps, not a focus on boutique releases." },
-  { id: "packaging", type: "packaging", title: "Packaging",
-    blurb: "Makers of premium steelbooks and collector packaging." },
+  { id: "shelf", type: "shelf", title: "Shelf Staples",
+    blurb: "General retailers selling mainstream studio catalogs — staple titles every collector picks up here, and there whether you're new or have been at this for years." },
+  { id: "premium", type: "premium", title: "Premiums",
+    blurb: "Makers of premium steelbooks, limited editions, and collector packaging." },
 ];
 
 const collapsedParents = new Set(COMPANIES.filter((c) => c.parent).map((c) => c.parent));
