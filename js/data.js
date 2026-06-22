@@ -40,6 +40,10 @@ const COMPANIES = [
     description: "Italian distributor specializing in all things physical media." },
   { name: "Videomatica", url: "https://videomatica.com/", type: "vendor", region: "CA",
     description: "Independent film store and media sales company based in Vancouver, Canada." },
+  { name: "BrotherBelial", url: "https://brotherbelial.com/", type: "vendor", region: "US",
+    description: "Online retailer based in the United States that specializes in boutique physical media, primarily focusing on horror, cult films, and international releases. - credit: lemonade" },
+  { name: "Valoria", url: "https://valoriavideo.com/", type: "vendor", region: "US",
+    description: "Source for rare Blu-ray, 4K UHD, and cult cinema. - credit: lemonade" },
 
   // ---------------- FILM LABELS ----------------
   { name: "A24", url: "https://shop.a24films.com/collections/blu-rays", type: "label", region: "US",
