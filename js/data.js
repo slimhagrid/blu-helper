@@ -144,6 +144,8 @@ const COMPANIES = [
    description: "International Films with an Edge." },
   { name: "Grindhouse Releasing", url: "https://shop.grindhousereleasing.com/", type: "label", region: "US",
    description: "Hollywood-based independent cult film distribution." },
+  { name: "Gehenna Films", url: "https://gehenna-films.myshopify.com/", type: "label", region: "HU",
+   description: "Gehenna Films is an independent film distributor, dedicated to old school horror & cult classic movies on physical media." },
 
   // ---------------- VINEGAR SYNDROME PARTNER LABELS ----------------
   // Sell their catalog through vinegarsyndrome.com rather than running a separate storefront.
