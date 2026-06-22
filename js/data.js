@@ -218,6 +218,8 @@ const COMPANIES = [
     description: "Long-running general movie retailer carrying a wide studio catalog selection." },
   { name: "MovieZyng", url: "https://moviezyng.com/", type: "shelf", region: "US",
     description: "Dedicated e-commerce destination and distributor for physical media." },
+  { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/", type: "shelf", region: "US",
+    description: "Largest retail bookseller in the United States - also sells blu-ray. - credit: bowlingwiz300" },
 
   // ---------------- PREMIUMS ----------------
   { name: "BluFans", url: "https://bluraysforeveryone.com/collections/steelbooks-metal-blufans", type: "premium", region: "CN",
