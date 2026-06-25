@@ -220,6 +220,8 @@ const COMPANIES = [
     description: "Dedicated e-commerce destination and distributor for physical media." },
   { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/", type: "shelf", region: "US",
     description: "Largest retail bookseller in the United States, also sells blu-ray. - credit: bowlingwiz300" },
+  { name: "WOWHD", url: "https://www.wowhd.co.uk/", type: "shelf", region: "UK",
+    description: "International online retailer that specializes in selling physical media, including CDs, vinyl records, 4K UHD discs, and Blu-rays. - credit: Tuudia" },
 
   // ---------------- PREMIUMS ----------------
   { name: "BluFans", url: "https://bluraysforeveryone.com/collections/steelbooks-metal-blufans", type: "premium", region: "CN",
