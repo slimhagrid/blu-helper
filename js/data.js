@@ -150,6 +150,8 @@ const COMPANIES = [
    description: "Hollywood-based independent cult film distribution." },
   { name: "Gehenna Films", url: "https://gehenna-films.myshopify.com/", type: "label", region: "HU",
    description: "Gehenna Films is an independent film distributor, dedicated to old school horror & cult classic movies on physical media." },
+  { name: "Cinema Guild", url: "https://store.cinemaguild.com/homevideo/category/NEW.html", type: "label", region: "US",
+   description: "New York-based film distribution company known for acquiring and releasing independent, foreign, and documentary films across North America. - credit: rooommate" },
 
   // ---------------- VINEGAR SYNDROME PARTNER LABELS ----------------
   // Sell their catalog through vinegarsyndrome.com rather than running a separate storefront.
