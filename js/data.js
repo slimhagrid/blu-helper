@@ -152,6 +152,8 @@ const COMPANIES = [
    description: "Gehenna Films is an independent film distributor, dedicated to old school horror & cult classic movies on physical media." },
   { name: "Cinema Guild", url: "https://store.cinemaguild.com/homevideo/category/NEW.html", type: "label", region: "US",
    description: "New York-based film distribution company known for acquiring and releasing independent, foreign, and documentary films across North America. - credit: rooommate" },
+  { name: "Wicked Vision Media", url: "https://www.wicked-shop.com/en/", type: "label", region: "DE",
+   description: "Boutique German film distribution and home entertainment company based in Germany. - credit: inspiration" },
 
   // ---------------- VINEGAR SYNDROME PARTNER LABELS ----------------
   // Sell their catalog through vinegarsyndrome.com rather than running a separate storefront.
