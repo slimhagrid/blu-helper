@@ -54,7 +54,7 @@ const COMPANIES = [
     description: "Genre and cult label known for extensive special editions and restorations." },
   { name: "Toy Robot Video", url: "", type: "label", region: "US", parent: "Arrow Video", needsReview: true,
     description: "Sub-label of Arrow Video." },
-  { name: "Cauldron Films", url: "https://www.cauldron-films.com/", type: "label", region: "US",
+  { name: "Cauldron Films", url: "https://www.cauldron-films.com/collections/cauldron-films", type: "label", region: "US",
     description: "Boutique label specializing in obscure horror and exploitation restorations." },
   { name: "Criterion", url: "https://www.criterion.com/", type: "label", region: "US",
     description: "Long-running label known for definitive editions of classic and contemporary art cinema." },
@@ -154,6 +154,23 @@ const COMPANIES = [
    description: "New York-based film distribution company known for acquiring and releasing independent, foreign, and documentary films across North America. - credit: rooommate" },
   { name: "Wicked Vision Media", url: "https://www.wicked-shop.com/en/", type: "label", region: "DE",
    description: "Boutique German film distribution and home entertainment company based in Germany. - credit: inspiration" },
+  { name: "Turbine Medien", url: "https://turbine-shop.de/en/", type: "label", region: "DE",
+   description: "German boutique media label based in Münster. - credit: inspiration" },
+  { name: "Neon Eagle Video", url: "https://www.cauldron-films.com/collections/neon-eagle-video", type: "label", region: "US", parent: "Cauldron Films",
+   description: "Boutique video label dedicated to Asian Trash Cinema. - credit: inspiration" },
+  { name: "Cauldron Crypt", url: "https://www.cauldron-films.com/collections/cauldron-crypt", type: "label", region: "US", parent: "Cauldron Films",
+   description: "Sub-label from Cauldron Films offering deeper cuts into obscure cinema." },
+  { name: "Ignite Films", url: "https://www.ignite-films.com/collections/now-available", type: "label", region: "US",
+   description: "Specialize in preserving and upgrading classic and cult genre films." },
+  { name: "Massacre Video", url: "https://massacrevideo.com/site/?product_cat=blu-ray", type: "label", region: "US",
+   description: "Horror, action, exploitation, or documentaries—if it pushes boundaries or breaks rules, it belongs here. - credit: inspiration" },
+  { name: "Magnet Releasing", url: "https://www.magnetreleasingfilms.com/", type: "label", region: "US",
+   description: "Focus on distributing horror, action, thrillers, international features, and dark comedies. - credit: inspiration" },
+  { name: "Rhino Entertainment", url: "https://store.rhino.com/collections/blu-ray-dvd", type: "label", region: "US",
+   description: "Holds an exceptional, gold-standard reputation for audiophile-grade Blu-ray Audio releases. - credit: inspiration" },
+  { name: "Bayview Entertainment", url: "https://www.bayviewentertainment.com/", type: "label", region: "US",
+   description: "American independent media company, film production, and distribution studio based in Pompton Plains, New Jersey. - credit: inspiration" },
+
 
   // ---------------- VINEGAR SYNDROME PARTNER LABELS ----------------
   // Sell their catalog through vinegarsyndrome.com rather than running a separate storefront.
