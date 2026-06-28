@@ -44,6 +44,8 @@ const COMPANIES = [
     description: "Online retailer based in the United States that specializes in boutique physical media, primarily focusing on horror, cult films, and international releases. - credit: lemonade" },
   { name: "Valoria Video", url: "https://valoriavideo.com/", type: "vendor", region: "US",
     description: "Source for rare Blu-ray, 4K UHD, and cult cinema. - credit: lemonade" },
+  { name: "Peak Books", url: "https://www.peakbooks.co/shop", type: "vendor", region: "CA",
+    description: "Boutique Blu-ray, film, and media retailer based in Calgary, Alberta" },
 
   // ---------------- FILM LABELS ----------------
   { name: "A24", url: "https://shop.a24films.com/collections/blu-rays", type: "label", region: "US",
