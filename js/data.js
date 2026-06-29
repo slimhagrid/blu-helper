@@ -45,7 +45,7 @@ const COMPANIES = [
   { name: "Valoria Video", url: "https://valoriavideo.com/", type: "vendor", region: "US",
     description: "Source for rare Blu-ray, 4K UHD, and cult cinema. - credit: lemonade" },
   { name: "Peak Books", url: "https://www.peakbooks.co/shop", type: "vendor", region: "CA",
-    description: "Boutique Blu-ray, film, and media retailer based in Calgary, Alberta" },
+    description: "Boutique Blu-ray, film, and media retailer based in Calgary, Alberta." },
 
   // ---------------- FILM LABELS ----------------
   { name: "A24", url: "https://shop.a24films.com/collections/blu-rays", type: "label", region: "US",
@@ -258,9 +258,13 @@ const COMPANIES = [
   { name: "HDZeta", url: "https://bluraysforeveryone.com/collections/steelbooks-metal-hdzeta", type: "premium", region: "CN",
     description: "Creates high-end numbered movie releases." },
   { name: "KimchiDVD", url: "https://www.kimchidvd.com/", type: "premium", region: "SK",
-    description: "Korean retailer specializing in exclusives." },
+    description: "South Korean retailer specializing in exclusives." },
   { name: "NovaMedia", url: "https://novamnm.com/category/4k-uhd/143/", type: "premium", region: "SK",
     description: "Releases limited premium movie editions." },
   { name: "Plain Archive", url: "https://www.plainarchive.com/", type: "premium", region: "SK",
     description: "Curates artistic collector film releases." },
+  { name: "WeET", url: "https://weetcollection.com/shop/list.php?ca_id=40", type: "premium", region: "SK",
+    description: "Premium South Korean retailer and producer of limited-edition physical media." },
+  { name: "Astro Creations", url: "https://www.astrocreationsretail.shop/", type: "premium", region: "UK",
+    description: "Boutique label specializing in premium, custom, and fully licensed 4K Blu-ray SteelBooks and physical media for collectors." },
 ];
