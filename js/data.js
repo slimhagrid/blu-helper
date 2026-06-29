@@ -130,7 +130,7 @@ const COMPANIES = [
    description: "European film and television studio that finances, produces, and distributes hundreds of movies and series globally." },
   { name: "New Wave Video", url: "https://newwavevideo.myshopify.com/collections/all", type: "label", region: "AUS",
    description: "Japanese/ Australian company with the head office in Fujisawa, Japan. Production is shared between both countries." },
-  { name: "Hammer FIlms", url: "https://hammerfilms.com/", type: "label", region: "UK",
+  { name: "Hammer Films", url: "https://hammerfilms.com/", type: "label", region: "UK",
    description: "Legendary British film production company." },
   { name: "Second Run DVD", url: "https://secondrundvd.ecwid.com/", type: "label", region: "UK",
    description: "UK-based film distribution company dedicated to releasing rare and important classic and contemporary films." },
