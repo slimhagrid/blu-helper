@@ -269,4 +269,6 @@ const COMPANIES = [
     description: "Premium South Korean retailer and producer of limited-edition physical media." },
   { name: "Astro Creations", url: "https://www.astrocreationsretail.shop/", type: "premium", region: "UK",
     description: "Boutique label specializing in premium, custom, and fully licensed 4K Blu-ray SteelBooks and physical media for collectors." },
+  { name: "Vignette Vault", url: "https://www.vignettevault.com/", type: "premium", region: "US",
+    description: "Independent artist and maker who creates highly detailed, custom Blu-ray and 4K Steelbooks." },
 ];
