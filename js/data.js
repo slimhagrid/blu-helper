@@ -46,6 +46,8 @@ const COMPANIES = [
     description: "Source for rare Blu-ray, 4K UHD, and cult cinema. - credit: lemonade" },
   { name: "Peak Books", url: "https://www.peakbooks.co/shop", type: "vendor", region: "CA",
     description: "Boutique Blu-ray, film, and media retailer based in Calgary, Alberta." },
+  { name: "iMusic", url: "https://imusic.co/movies", type: "vendor", region: "DK",
+    description: "Massive Danish-based online retailer that ships millions of physical media items." },
 
   // ---------------- FILM LABELS ----------------
   { name: "A24", url: "https://shop.a24films.com/collections/blu-rays", type: "label", region: "US",
