@@ -174,6 +174,8 @@ const COMPANIES = [
    description: "Holds an exceptional, gold-standard reputation for audiophile-grade Blu-ray Audio releases. - credit: inspiration" },
   { name: "Bayview Entertainment", url: "https://www.bayviewentertainment.com/", type: "label", region: "US",
    description: "American independent media company, film production, and distribution studio based in Pompton Plains, New Jersey. - credit: inspiration" },
+  { name: "Factoris Films", url: "https://boutique.factorisfilms.com/", type: "label", region: "FR",
+   description: "French audiovisual production and distribution company." },
 
 
   // ---------------- VINEGAR SYNDROME PARTNER LABELS ----------------
