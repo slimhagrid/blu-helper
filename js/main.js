@@ -7,6 +7,8 @@ const SECTIONS = [
     blurb: "General retailers selling mainstream studio catalogs — staple titles every collector picks up here, and there whether you're new or have been at this for years." },
   { id: "premium", type: "premium", title: "Premiums",
     blurb: "Makers of premium steelbooks, limited editions, and collector packaging." },
+  { id: "custom", type: "custom", title: "Customs",
+    blurb: "Independant makers able to print ontop of existing Steelbooks, and/or make custom slipcovers and lenticulars. - credit: citricacidx and meniK" },
 ];
 
 const collapsedParents = new Set(COMPANIES.filter((c) => c.parent).map((c) => c.parent));

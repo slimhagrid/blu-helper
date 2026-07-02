@@ -48,6 +48,8 @@ const COMPANIES = [
     description: "Boutique Blu-ray, film, and media retailer based in Calgary, Alberta." },
   { name: "iMusic", url: "https://imusic.co/movies", type: "vendor", region: "DK",
     description: "Massive Danish-based online retailer that ships millions of physical media items." },
+  { name: "Bluray Life", url: "https://www.bluraylife.com/", type: "vendor", region: "US",
+    description: "Online retailer by and for avid movie collectors." },
 
   // ---------------- FILM LABELS ----------------
   { name: "A24", url: "https://shop.a24films.com/collections/blu-rays", type: "label", region: "US",
@@ -271,6 +273,27 @@ const COMPANIES = [
     description: "Premium South Korean retailer and producer of limited-edition physical media." },
   { name: "Astro Creations", url: "https://www.astrocreationsretail.shop/", type: "premium", region: "UK",
     description: "Boutique label specializing in premium, custom, and fully licensed 4K Blu-ray SteelBooks and physical media for collectors." },
-  { name: "Vignette Vault", url: "https://www.vignettevault.com/", type: "premium", region: "US",
+  { name: "Hi-Def Ninja", url: "https://shop.hidefninja.com/", type: "premium", region: "US",
+    description: "Particularly well-known among enthusiasts of premium 4K Blu-rays and limited-edition SteelBooks." },
+
+
+  // ---------------- CUSTOMS ----------------
+    { name: "Vignette Vault", url: "https://www.vignettevault.com/", type: "custom", region: "US",
     description: "Independent artist and maker who creates highly detailed, custom Blu-ray and 4K Steelbooks." },
+    { name: "Kino Customs", url: "https://www.instagram.com/kino.customs/", type: "custom", region: "US",
+    description: "Custom Steelbook Cases 1:1 Vinyl Wrapped. - credit: meniK" },
+    { name: "Chrome Custom Steelbook", url: "https://www.instagram.com/custom_steelbook", type: "custom", region: "",
+    description: "Custom Steelbooks, Metal Prints, printing on top of an existing SteelBook. - credit: citricacidx" },
+    { name: "Drumass", url: "https://drumass.com/", type: "custom", region: "",
+    description: "Spine Magnets and Stickers, Front/Back cover 2D magnets. - credit: citricacidx" },
+    { name: "Masters of Steel", url: "https://www.instagram.com/mastersofsteel", type: "custom", region: "",
+    description: "Ultra glossy adhesive vinyl. - credit: citricacidx" },
+    { name: "My Perfect Steel", url: "https://www.instagram.com/MyPerfectSteel/", type: "custom", region: "",
+    description: "Spot-gloss Steelbooks. - credit: citricacidx" },
+    { name: "MK Steels", url: "https://www.instagram.com/mk__steels/", type: "custom", region: "",
+    description: "High quality car wrap vinyl, silky/matte/glossy, optional embossing or special effects. - credit: citricacidx" },
+    { name: "Custom Steelbook Varrona", url: "https://www.instagram.com/custom_steelbook_varrona", type: "custom", region: "",
+    description: "Printing on top of an existing SteelBook including spot gloss. - credit: citricacidx" },
+    { name: "Steelbook Covers", url: "https://www.instagram.com/steelbookcovers", type: "custom", region: "",
+    description: "Printing on top of an existing SteelBook including spot gloss. - credit: citricacidx" },
 ];
