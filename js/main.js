@@ -8,7 +8,7 @@ const SECTIONS = [
   { id: "premium", type: "premium", title: "Premiums",
     blurb: "Makers of premium steelbooks, limited editions, and collector packaging." },
   { id: "custom", type: "custom", title: "Customs",
-    blurb: "Independant makers able to print ontop of existing Steelbooks, and/or make custom slipcovers and lenticulars. - credit: citricacidx and meniK" },
+    blurb: "Independent makers able to print on top of or wrap existing steelbooks and/or make custom slipcovers and lenticulars." },
 ];
 
 const collapsedParents = new Set(COMPANIES.filter((c) => c.parent).map((c) => c.parent));
