@@ -1,6 +1,6 @@
 /* blu-helper data
  *
- * type: "vendor" | "label" | "shelf" | "packaging"
+ * type: "vendor" | "label" | "shelf" | "premium" | "custom"
  * region: "US" | "CA" | "UK" | "AUS" | "" (unspecified)
  * parent: name of another entry this one nests under (e.g. partner labels under Vinegar Syndrome)
  * needsReview: true if url/description still needs verification
