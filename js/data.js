@@ -294,4 +294,6 @@ const COMPANIES = [
     description: "UV direct print & vinyl wrap steelbooks | UV texture / embossings | high quality car wrapping vinyl in silky matte or glossy with optional special effects (glow in the dark titles / embossings etc.)" },
     { name: "Steelbook Covers", url: "https://www.instagram.com/steelbookcovers", type: "custom", region: "",
     description: "Custom magnets to put on steelbooks" },
+    { name: "Surgeon of Steel", url: "https://www.facebook.com/groups/278628346760431/", type: "custom", region: "US",
+    description: "Highly regarded custom steelbook and packaging creator in the custom physical media community" },
 ];
