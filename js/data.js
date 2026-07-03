@@ -12,7 +12,7 @@ const COMPANIES = [
     description: "Specialty storefront stocking import and boutique blu-rays from labels across the blu-ray space." },
   { name: "DiabolikDVD", url: "https://diabolikdvd.com/", type: "vendor", region: "US",
     description: "Long-running boutique vendor carrying releases from nearly every active genre and cult label, domestic and import." },
-  { name: "MediaOCD - Discotek", url: "https://www.mediaocd.com/category/discotek", type: "vendor", region: "US",
+  { name: "MediaOCD - Discotek", url: "https://mediaocd.com/brand/discotek/", type: "vendor", region: "US",
     description: "Vendor specializing in Discotek Media's anime and tokusatsu catalog plus related imports." },
   { name: "MonsterMaul", url: "https://monstermaul.com/", type: "vendor", region: "US",
     description: "Boutique vendor focused on horror and cult imports that are hard to find elsewhere." },
