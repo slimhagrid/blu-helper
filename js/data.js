@@ -178,6 +178,8 @@ const COMPANIES = [
    description: "American independent media company, film production, and distribution studio based in Pompton Plains, New Jersey. - credit: inspiration" },
   { name: "Factoris Films", url: "https://boutique.factorisfilms.com/", type: "label", region: "FR",
    description: "French audiovisual production and distribution company." },
+  { name: "Capelight Pictures", url: "https://shop.capelight.de/en/", type: "label", region: "DE",
+    description: "Berlin-based international independent film distributor and home entertainment publisher." },
 
 
   // ---------------- VINEGAR SYNDROME PARTNER LABELS ----------------
