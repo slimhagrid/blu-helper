@@ -50,6 +50,8 @@ const COMPANIES = [
     description: "Massive Danish-based online retailer that ships millions of physical media items." },
   { name: "Bluray Life", url: "https://www.bluraylife.com/", type: "vendor", region: "US",
     description: "Online retailer by and for avid movie collectors." },
+  { name: "Static Tape Video", url: "https://www.statictapevideo.com/", type: "vendor", region: "US",
+    description: "West Michigan Premier video and record store." },
 
   // ---------------- FILM LABELS ----------------
   { name: "A24", url: "https://shop.a24films.com/collections/blu-rays", type: "label", region: "US",
