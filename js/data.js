@@ -182,6 +182,12 @@ const COMPANIES = [
    description: "French audiovisual production and distribution company." },
   { name: "Capelight Pictures", url: "https://shop.capelight.de/en/", type: "label", region: "DE",
     description: "Berlin-based international independent film distributor and home entertainment publisher." },
+  { name: "Media Blasters", url: "https://mb-storefront.com/", type: "label", region: "US",
+    description: "Distributes anime, manga, and Asian live-action films." },
+  { name: "Network on Air", url: "https://networkonair.com/", type: "label", region: "UK",
+    description: "Well-known British media brand and online storefront for Network Distributing." },
+  { name: "Gerry Anderson", url: "https://gerryanderson.com/en-us/collections/blu-ray", type: "label", region: "UK",
+    description: "British production and licensing company founded by Gerry Anderson." },
 
 
   // ---------------- VINEGAR SYNDROME PARTNER LABELS ----------------
