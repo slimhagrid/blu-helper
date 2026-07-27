@@ -52,6 +52,8 @@ const COMPANIES = [
     description: "Online retailer by and for avid movie collectors." },
   { name: "Static Tape Video", url: "https://www.statictapevideo.com/", type: "vendor", region: "US",
     description: "West Michigan Premier video and record store." },
+  { name: "CineBox", url: "https://cinebox.ca/", type: "vendor", region: "CA",
+    description: "Online retailer specializing in physical home media, offering 4K UHD, Blu-ray, and steelbook movie editions." },
 
   // ---------------- FILM LABELS ----------------
   { name: "A24", url: "https://shop.a24films.com/collections/blu-rays", type: "label", region: "US",
