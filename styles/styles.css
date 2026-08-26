@@ -307,6 +307,29 @@ a {
   font-size: 14px;
 }
 
+.list-row .perks-toggle {
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.list-row .perks-toggle:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+.list-row .perks {
+  margin: var(--space-xs) 0 0;
+  padding-left: var(--space-lg);
+  color: var(--body);
+  font-size: 14px;
+}
+
+.list-row .perks li {
+  margin-bottom: 2px;
+}
+
 .empty-note {
   color: var(--mute);
   font-size: 14px;

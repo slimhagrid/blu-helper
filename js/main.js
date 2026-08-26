@@ -12,6 +12,7 @@ const SECTIONS = [
 ];
 
 const collapsedParents = new Set(COMPANIES.filter((c) => c.parent).map((c) => c.parent));
+const expandedPerks = new Set();
 let lastFilter = "";
 
 function entryRow(c, { isChild = false, childCount = 0, collapsed = false } = {}) {
@@ -26,12 +27,22 @@ function entryRow(c, { isChild = false, childCount = 0, collapsed = false } = {}
     ? `<span class="marker toggle" data-toggle="${c.name}">${collapsed ? "[*]" : "[x]"}</span>`
     : `<span class="marker">[-]</span>`;
 
+  const hasPerks = Array.isArray(c.perks) && c.perks.length > 0;
+  const perksExpanded = hasPerks && expandedPerks.has(c.name);
+  const perksToggle = hasPerks
+    ? `<span class="perks-toggle" data-perks-toggle="${c.name}">${perksExpanded ? "[- perks]" : "[+ perks]"}</span>`
+    : "";
+  const perksList = hasPerks && perksExpanded
+    ? `<ul class="perks">${c.perks.map((p) => `<li>${p}</li>`).join("")}</ul>`
+    : "";
+
   return `
     <div class="list-row${isChild ? " child-row" : ""}" data-name="${c.name.toLowerCase()}">
       ${marker}
       <div class="entry-body">
-        <span class="name">${nameHtml}</span> ${tag}${countBadge}
+        <span class="name">${nameHtml}</span> ${tag}${countBadge} ${perksToggle}
         <div class="desc">${desc}</div>
+        ${perksList}
       </div>
     </div>`;
 }
@@ -106,6 +117,15 @@ document.addEventListener("DOMContentLoaded", () => {
   render("");
   document.getElementById("search").addEventListener("input", (e) => render(e.target.value));
   document.getElementById("sections").addEventListener("click", (e) => {
+    const perksToggle = e.target.closest(".perks-toggle");
+    if (perksToggle) {
+      const name = perksToggle.dataset.perksToggle;
+      if (expandedPerks.has(name)) expandedPerks.delete(name);
+      else expandedPerks.add(name);
+      render(lastFilter);
+      return;
+    }
+
     const toggle = e.target.closest(".toggle");
     if (!toggle) return;
     const name = toggle.dataset.toggle;
