@@ -295,6 +295,8 @@ const COMPANIES = [
     description: "Boutique label specializing in premium, custom, and fully licensed 4K Blu-ray SteelBooks and physical media for collectors." },
   { name: "Hi-Def Ninja", url: "https://shop.hidefninja.com/", type: "premium", region: "US",
     description: "Particularly well-known among enthusiasts of premium 4K Blu-rays and limited-edition SteelBooks." },
+  { name: "Relite Media", url: "https://www.instagram.com/relitemedia/", type: "premium", region: "SG",
+    description: "Boutique premium physical media retailer based in Singapore. Purchasing via Group Buys on MediaPsychos or Debossed Facebook Group. - credit: Snow and Amano Jyaku" },
 
 
   // ---------------- CUSTOMS ----------------
